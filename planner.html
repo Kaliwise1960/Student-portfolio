@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academic Planner | Ebenyam Monday</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">Ebenyam Monday | Academic Portfolio</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="planner.html" class="active">Academic Planner</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="card">
+            <h2>Interactive Academic Planner</h2>
+            <p>Manage your daily cybersecurity assignments, course modules, and study schedules.</p>
+
+            <form id="plannerForm" class="planner-form">
+                <input type="text" id="taskInput" placeholder="Enter task title (e.g., Complete COS 106 Project)" required>
+                <select id="courseSelect">
+                    <option value="COS 106">COS 106 - Web Technologies</option>
+                    <option value="CYB 101">CYB 101 - Intro to Cybersecurity</option>
+                    <option value="MTH 101">MTH 101 - Mathematics</option>
+                    <option value="General">General Study Task</option>
+                </select>
+                <button type="submit" class="btn primary-btn">Add Task</button>
+            </form>
+        </section>
+
+        <section class="card">
+            <h3>Current Academic Tasks</h3>
+            <div id="plannerFeedback" class="feedback-msg"></div>
+            <ul id="taskList" class="task-list">
+                <!-- Dynamic tasks will be inserted here via JS -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Ebenyam Monday - MIVA Open University. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
