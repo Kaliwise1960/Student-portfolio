@@ -25,4 +25,4 @@ This website is a multi-page student academic portfolio and interactive student 
 
 ## Hosting & Live Demo
 - **GitHub Repository:** `[Insert link to your GitHub repo here]`
-- Live Website: `[Insert your kaliwise1960.github.io. LGitHub Pages live site link here]`
+- Live Website: `[https://kaliwise1960.github.io/Student-portfolio/index.html]`
